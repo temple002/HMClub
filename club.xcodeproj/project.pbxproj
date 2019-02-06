@@ -1,0 +1,1168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473458DE45C9CCE8AE488E61 /* Pods_club.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198AFFB9CCAA8FBF48EE125 /* Pods_club.framework */; };
+		9C0132FC1DCED6EE00641B59 /* HMEventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0132FB1DCED6EE00641B59 /* HMEventListViewModel.swift */; };
+		9C0411841DBB02A100754474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411831DBB02A100754474 /* AppDelegate.swift */; };
+		9C04118E1DBB02A100754474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C04118C1DBB02A100754474 /* LaunchScreen.storyboard */; };
+		9C0411C11DBB06A100754474 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411A31DBB06A100754474 /* NSArray+Log.m */; };
+		9C0411C21DBB06A100754474 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411A51DBB06A100754474 /* NSAttributedString+CZAdditon.m */; };
+		9C0411C31DBB06A100754474 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411A71DBB06A100754474 /* NSObject+CZRuntime.m */; };
+		9C0411C41DBB06A100754474 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411A91DBB06A100754474 /* NSString+CZBase64.m */; };
+		9C0411C51DBB06A100754474 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411AB1DBB06A100754474 /* NSString+CZHash.m */; };
+		9C0411C61DBB06A100754474 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411AD1DBB06A100754474 /* NSString+CZPath.m */; };
+		9C0411C71DBB06A100754474 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411AF1DBB06A100754474 /* UIButton+CZAddition.m */; };
+		9C0411C81DBB06A100754474 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411B11DBB06A100754474 /* UIColor+CZAddition.m */; };
+		9C0411C91DBB06A100754474 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411B31DBB06A100754474 /* UILabel+CZAddition.m */; };
+		9C0411CA1DBB06A100754474 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411B51DBB06A100754474 /* UIScreen+CZAddition.m */; };
+		9C0411CB1DBB06A100754474 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411B71DBB06A100754474 /* UIView+CZAddition.m */; };
+		9C0411CC1DBB06A100754474 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411B91DBB06A100754474 /* UIViewController+CZAddition.m */; };
+		9C0411CD1DBB06A100754474 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411BB1DBB06A100754474 /* Bundle+Extension.swift */; };
+		9C0411CE1DBB06A100754474 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411BC1DBB06A100754474 /* Date+Extension.swift */; };
+		9C0411CF1DBB06A100754474 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411BD1DBB06A100754474 /* String+Extension.swift */; };
+		9C0411D01DBB06A100754474 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411BE1DBB06A100754474 /* UIBarButtonItem+Extension.swift */; };
+		9C0411D11DBB06A100754474 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411BF1DBB06A100754474 /* UIImage+Extensions.swift */; };
+		9C0411DF1DBB090400754474 /* HMPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411D61DBB090400754474 /* HMPhotoBrowserAnimator.m */; };
+		9C0411E01DBB090400754474 /* HMPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411D81DBB090400754474 /* HMPhotoBrowserController.m */; };
+		9C0411E11DBB090400754474 /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411DA1DBB090400754474 /* HMPhotoBrowserPhotos.m */; };
+		9C0411E21DBB090400754474 /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411DC1DBB090400754474 /* HMPhotoProgressView.m */; };
+		9C0411E31DBB090400754474 /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411DE1DBB090400754474 /* HMPhotoViewerController.m */; };
+		9C0411E71DBB092400754474 /* WeiBoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411E61DBB092400754474 /* WeiBoCommon.swift */; };
+		9C0411E91DBB0F3400754474 /* HMMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411E81DBB0F3400754474 /* HMMainController.swift */; };
+		9C0411EB1DBB101500754474 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C0411EA1DBB101500754474 /* main.json */; };
+		9C0411ED1DBB105000754474 /* HMBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411EC1DBB105000754474 /* HMBaseController.swift */; };
+		9C0411EF1DBB108800754474 /* HMClubsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411EE1DBB108800754474 /* HMClubsController.swift */; };
+		9C0411F11DBB109B00754474 /* HMHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411F01DBB109B00754474 /* HMHomeController.swift */; };
+		9C0411F31DBB10FC00754474 /* HMMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411F21DBB10FC00754474 /* HMMessageController.swift */; };
+		9C0411F51DBB110700754474 /* HMProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411F41DBB110700754474 /* HMProfileController.swift */; };
+		9C0411F71DBB12A300754474 /* HMNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411F61DBB12A300754474 /* HMNavController.swift */; };
+		9C0411FA1DBB3CB000754474 /* HMMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0411F91DBB3CB000754474 /* HMMenuView.swift */; };
+		9C11752F1DD858F200C540CA /* HMMessageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11752E1DD858F200C540CA /* HMMessageDetailController.swift */; };
+		9C25C1AC1DD2C31E00FCE54B /* HMMineCreatedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25C1AB1DD2C31E00FCE54B /* HMMineCreatedController.swift */; };
+		9C25C1B11DD2C47900FCE54B /* HMMineCreatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25C1B01DD2C47900FCE54B /* HMMineCreatedCell.swift */; };
+		9C25C1B31DD2C48700FCE54B /* HMMineCreatedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C25C1B21DD2C48700FCE54B /* HMMineCreatedCell.xib */; };
+		9C25C1B51DD3107800FCE54B /* underCheckClub.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9C25C1B41DD3107800FCE54B /* underCheckClub.sql */; };
+		9C25C1B71DD3193500FCE54B /* HMSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25C1B61DD3193500FCE54B /* HMSettingController.swift */; };
+		9C2A51E61DE1538E00333AEC /* ls1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A51E51DE1538E00333AEC /* ls1.png */; };
+		9C2DC0EB1DD06CFA001359A4 /* HMComposeCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC0EA1DD06CFA001359A4 /* HMComposeCreateController.swift */; };
+		9C2DC0ED1DD06D19001359A4 /* HMComposeCreateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2DC0EC1DD06D19001359A4 /* HMComposeCreateController.xib */; };
+		9C2DC0EF1DD0BE90001359A4 /* HMClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC0EE1DD0BE90001359A4 /* HMClub.swift */; };
+		9C2DC0F11DD0BFEB001359A4 /* Club.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9C2DC0F01DD0BFEB001359A4 /* Club.sql */; };
+		9C2DC0F31DD16163001359A4 /* HMClubListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC0F21DD16163001359A4 /* HMClubListViewModel.swift */; };
+		9C2DC0F61DD16C2A001359A4 /* HMClubDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DC0F51DD16C2A001359A4 /* HMClubDetailController.swift */; };
+		9C2DC0F81DD16C35001359A4 /* HMClubDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2DC0F71DD16C35001359A4 /* HMClubDetailController.xib */; };
+		9C4BEED51DD43839000A07FC /* HMMineJoinedEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEED41DD43839000A07FC /* HMMineJoinedEventController.swift */; };
+		9C4BEED71DD43FCB000A07FC /* HMMineJoinedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEED61DD43FCB000A07FC /* HMMineJoinedCell.swift */; };
+		9C4BEED91DD43FD3000A07FC /* HMMineJoinedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4BEED81DD43FD3000A07FC /* HMMineJoinedCell.xib */; };
+		9C4BEEDB1DD456DD000A07FC /* HMApplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEEDA1DD456DD000A07FC /* HMApplyView.swift */; };
+		9C4BEEDD1DD456EC000A07FC /* HMApplyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4BEEDC1DD456EC000A07FC /* HMApplyView.xib */; };
+		9C4BEEDF1DD57680000A07FC /* HMMineJoinedClubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEEDE1DD57680000A07FC /* HMMineJoinedClubController.swift */; };
+		9C4BEEE11DD57701000A07FC /* HMMineJoinedClubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEEE01DD57701000A07FC /* HMMineJoinedClubCell.swift */; };
+		9C4BEEE31DD57709000A07FC /* HMMineJoinedClubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4BEEE21DD57709000A07FC /* HMMineJoinedClubCell.xib */; };
+		9C4BEEE51DD58163000A07FC /* HMUnderCheckClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEEE41DD58163000A07FC /* HMUnderCheckClub.swift */; };
+		9C4BEEE81DD5BD3C000A07FC /* HMCreatedClubDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEEE71DD5BD3C000A07FC /* HMCreatedClubDetailController.swift */; };
+		9C4BEEEA1DD5BD45000A07FC /* HMCreatedClubDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4BEEE91DD5BD45000A07FC /* HMCreatedClubDetailController.xib */; };
+		9C4BEEF81DD700C2000A07FC /* HMClubEventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BEEF51DD700C2000A07FC /* HMClubEventsController.swift */; };
+		9C6531C11DBC5B58009E7159 /* HMHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6531C01DBC5B58009E7159 /* HMHomeCell.swift */; };
+		9C6531C31DBC5C1A009E7159 /* HMHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6531C21DBC5C1A009E7159 /* HMHomeCell.xib */; };
+		9C6531C51DBCFF67009E7159 /* HMClubItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6531C41DBCFF67009E7159 /* HMClubItemCell.swift */; };
+		9C6531C71DBCFF6F009E7159 /* HMClubItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6531C61DBCFF6F009E7159 /* HMClubItemCell.xib */; };
+		9C6531C91DBDF3C3009E7159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6531C81DBDF3C2009E7159 /* Assets.xcassets */; };
+		9C6531CB1DBDFC36009E7159 /* HMMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6531CA1DBDFC36009E7159 /* HMMessageCell.swift */; };
+		9C6531CD1DBDFC3D009E7159 /* HMMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6531CC1DBDFC3D009E7159 /* HMMessageCell.xib */; };
+		9C6BC0E91DCCBF5B0031B3BE /* HMEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC0E81DCCBF5B0031B3BE /* HMEvent.swift */; };
+		9C6BC0EB1DCCC2430031B3BE /* Event.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9C6BC0EA1DCCC2430031B3BE /* Event.sql */; };
+		9C6BC0ED1DCCC7BB0031B3BE /* HMComposeEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC0EC1DCCC7BB0031B3BE /* HMComposeEventController.swift */; };
+		9C6BC0EF1DCCC7CD0031B3BE /* HMComposeEventController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6BC0EE1DCCC7CD0031B3BE /* HMComposeEventController.xib */; };
+		9C6BC0F31DCCCC700031B3BE /* HMRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6BC0F21DCCCC700031B3BE /* HMRegistView.xib */; };
+		9C6BC0F51DCD75840031B3BE /* HMRegistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC0F41DCD75840031B3BE /* HMRegistView.swift */; };
+		9C6EFD041DBE4BA30052C8F3 /* Mine.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C6EFD031DBE4BA30052C8F3 /* Mine.json */; };
+		9C6EFD081DC0D0DA0052C8F3 /* HMProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6EFD071DC0D0DA0052C8F3 /* HMProfileCell.xib */; };
+		9C6EFD0A1DC0D1060052C8F3 /* HMProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EFD091DC0D1060052C8F3 /* HMProfileCell.swift */; };
+		9C6EFD0C1DC0D3B10052C8F3 /* HMProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EFD0B1DC0D3B10052C8F3 /* HMProfileHeaderView.swift */; };
+		9C6EFD0E1DC0D3BF0052C8F3 /* HMProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6EFD0D1DC0D3BF0052C8F3 /* HMProfileHeaderView.xib */; };
+		9C714B851DDC7B6E000CD622 /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C714B841DDC7B6E000CD622 /* UIImageView+WebImage.swift */; };
+		9C8259DC1DC1F0490042A6F4 /* HMZoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8259DB1DC1F0490042A6F4 /* HMZoneController.swift */; };
+		9C86574E1DC9993300654F00 /* HMComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86574D1DC9993300654F00 /* HMComposeTextView.swift */; };
+		9C8657521DC9C19800654F00 /* HMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8657511DC9C19800654F00 /* HMDBManager.swift */; };
+		9C8657551DC9C35C00654F00 /* HMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8657541DC9C35C00654F00 /* HMLoginViewController.swift */; };
+		9C8657571DC9C37100654F00 /* HMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C8657561DC9C37100654F00 /* HMLoginViewController.xib */; };
+		9C8657591DC9D93100654F00 /* user.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9C8657581DC9D93100654F00 /* user.sql */; };
+		9C8657621DCB178D00654F00 /* HMRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86575D1DCB178D00654F00 /* HMRefreshControl.swift */; };
+		9C8657631DCB178D00654F00 /* HMRefreshview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86575E1DCB178D00654F00 /* HMRefreshview.swift */; };
+		9C8657641DCB178D00654F00 /* HMRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C86575F1DCB178D00654F00 /* HMRefreshView.xib */; };
+		9C9C09D01DD710CC0024E5BB /* HMCheckApplyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C09CF1DD710CC0024E5BB /* HMCheckApplyController.swift */; };
+		9C9C09D21DD711E10024E5BB /* HMCheckApplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C09D11DD711E10024E5BB /* HMCheckApplyCell.swift */; };
+		9C9C09D41DD711E70024E5BB /* HMCheckApplyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C09D31DD711E70024E5BB /* HMCheckApplyCell.xib */; };
+		9C9C09D61DD745560024E5BB /* HMClubMemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C09D51DD745560024E5BB /* HMClubMemberController.swift */; };
+		9C9C09D81DD74E570024E5BB /* HMPushNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C09D71DD74E570024E5BB /* HMPushNoteController.swift */; };
+		9C9C09DA1DD750030024E5BB /* HMPushNoteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C09D91DD750030024E5BB /* HMPushNoteController.xib */; };
+		9C9C09DC1DD7558E0024E5BB /* note.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C09DB1DD7558E0024E5BB /* note.sql */; };
+		9C9C7D4A1DC380AE00F8E3EA /* HMZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C7D491DC380AE00F8E3EA /* HMZoneCell.swift */; };
+		9C9C7D4C1DC380B800F8E3EA /* HMZoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C7D4B1DC380B800F8E3EA /* HMZoneCell.xib */; };
+		9C9C7D4E1DC38F6F00F8E3EA /* HMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C7D4D1DC38F6F00F8E3EA /* HMUser.swift */; };
+		9C9C7D501DC3913B00F8E3EA /* HMZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C7D4F1DC3913B00F8E3EA /* HMZone.swift */; };
+		9C9C7D521DC4371400F8E3EA /* HMZoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C7D511DC4371400F8E3EA /* HMZoneViewModel.swift */; };
+		9C9C7D541DC43FE700F8E3EA /* HMZoneListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C7D531DC43FE700F8E3EA /* HMZoneListViewModel.swift */; };
+		9C9C7D5D1DC4441400F8E3EA /* HMSQLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C7D5B1DC4441400F8E3EA /* HMSQLManager.swift */; };
+		9C9C7D5E1DC4441400F8E3EA /* zone.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C7D5C1DC4441400F8E3EA /* zone.sql */; };
+		9CB5C2901DCD83B9001DD303 /* HMClubRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5C28F1DCD83B9001DD303 /* HMClubRecommend.swift */; };
+		9CB5C2921DCD83C0001DD303 /* HMClubRecommend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB5C2911DCD83C0001DD303 /* HMClubRecommend.xib */; };
+		9CB5C2941DCD90ED001DD303 /* HMNewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5C2931DCD90ED001DD303 /* HMNewUserView.swift */; };
+		9CC36FEE1DD00FEB007BB50E /* HMEventDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC36FED1DD00FEA007BB50E /* HMEventDetailController.swift */; };
+		9CC36FF01DD00FFC007BB50E /* HMEventDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC36FEF1DD00FFC007BB50E /* HMEventDetailController.xib */; };
+		9CD22DDC1DD808F7007B8DED /* HMNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD22DDB1DD808F7007B8DED /* HMNoteController.swift */; };
+		9CD22DDE1DD80938007B8DED /* HMNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD22DDD1DD80938007B8DED /* HMNoteCell.swift */; };
+		9CD22DE01DD80948007B8DED /* HMNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD22DDF1DD80948007B8DED /* HMNoteCell.xib */; };
+		9CDD73B71DC77A93001B498C /* HMMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD73B61DC77A93001B498C /* HMMediaView.swift */; };
+		9CDD73B91DC8D0EF001B498C /* HMComposeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD73B81DC8D0EF001B498C /* HMComposeListView.swift */; };
+		9CDD73BD1DC8D117001B498C /* HMComposeListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD73BC1DC8D117001B498C /* HMComposeListView.xib */; };
+		9CDD73BF1DC8D552001B498C /* HMComposeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD73BE1DC8D552001B498C /* HMComposeBtn.swift */; };
+		9CDD73C11DC8D55C001B498C /* HMComposeBtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD73C01DC8D55C001B498C /* HMComposeBtn.xib */; };
+		9CDD73C41DC981A6001B498C /* HMComposeZoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD73C31DC981A6001B498C /* HMComposeZoneController.swift */; };
+		9CDD73C61DC98D0F001B498C /* HMComposeZoneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD73C51DC98D0F001B498C /* HMComposeZoneController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34F71B70180A552CDE633034 /* Pods-club.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-club.debug.xcconfig"; path = "Pods/Target Support Files/Pods-club/Pods-club.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0132FB1DCED6EE00641B59 /* HMEventListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEventListViewModel.swift; sourceTree = "<group>"; };
+		9C0411801DBB02A100754474 /* club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = club.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0411831DBB02A100754474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C04118D1DBB02A100754474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C04118F1DBB02A100754474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0411A11DBB06A100754474 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		9C0411A21DBB06A100754474 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		9C0411A31DBB06A100754474 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		9C0411A41DBB06A100754474 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		9C0411A51DBB06A100754474 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		9C0411A61DBB06A100754474 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		9C0411A71DBB06A100754474 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		9C0411A81DBB06A100754474 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		9C0411A91DBB06A100754474 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		9C0411AA1DBB06A100754474 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		9C0411AB1DBB06A100754474 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		9C0411AC1DBB06A100754474 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		9C0411AD1DBB06A100754474 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		9C0411AE1DBB06A100754474 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		9C0411AF1DBB06A100754474 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		9C0411B01DBB06A100754474 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		9C0411B11DBB06A100754474 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		9C0411B21DBB06A100754474 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		9C0411B31DBB06A100754474 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		9C0411B41DBB06A100754474 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		9C0411B51DBB06A100754474 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		9C0411B61DBB06A100754474 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		9C0411B71DBB06A100754474 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		9C0411B81DBB06A100754474 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		9C0411B91DBB06A100754474 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		9C0411BB1DBB06A100754474 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		9C0411BC1DBB06A100754474 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		9C0411BD1DBB06A100754474 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9C0411BE1DBB06A100754474 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		9C0411BF1DBB06A100754474 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		9C0411D31DBB06B100754474 /* Weibo-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo-bridge.h"; sourceTree = "<group>"; };
+		9C0411D51DBB090400754474 /* HMPhotoBrowserAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserAnimator.h; sourceTree = "<group>"; };
+		9C0411D61DBB090400754474 /* HMPhotoBrowserAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserAnimator.m; sourceTree = "<group>"; };
+		9C0411D71DBB090400754474 /* HMPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserController.h; sourceTree = "<group>"; };
+		9C0411D81DBB090400754474 /* HMPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserController.m; sourceTree = "<group>"; };
+		9C0411D91DBB090400754474 /* HMPhotoBrowserPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserPhotos.h; sourceTree = "<group>"; };
+		9C0411DA1DBB090400754474 /* HMPhotoBrowserPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserPhotos.m; sourceTree = "<group>"; };
+		9C0411DB1DBB090400754474 /* HMPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoProgressView.h; sourceTree = "<group>"; };
+		9C0411DC1DBB090400754474 /* HMPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoProgressView.m; sourceTree = "<group>"; };
+		9C0411DD1DBB090400754474 /* HMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoViewerController.h; sourceTree = "<group>"; };
+		9C0411DE1DBB090400754474 /* HMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoViewerController.m; sourceTree = "<group>"; };
+		9C0411E61DBB092400754474 /* WeiBoCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiBoCommon.swift; sourceTree = "<group>"; };
+		9C0411E81DBB0F3400754474 /* HMMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMainController.swift; sourceTree = "<group>"; };
+		9C0411EA1DBB101500754474 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		9C0411EC1DBB105000754474 /* HMBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBaseController.swift; sourceTree = "<group>"; };
+		9C0411EE1DBB108800754474 /* HMClubsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubsController.swift; sourceTree = "<group>"; };
+		9C0411F01DBB109B00754474 /* HMHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHomeController.swift; sourceTree = "<group>"; };
+		9C0411F21DBB10FC00754474 /* HMMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMessageController.swift; sourceTree = "<group>"; };
+		9C0411F41DBB110700754474 /* HMProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProfileController.swift; sourceTree = "<group>"; };
+		9C0411F61DBB12A300754474 /* HMNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMNavController.swift; sourceTree = "<group>"; };
+		9C0411F91DBB3CB000754474 /* HMMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMenuView.swift; sourceTree = "<group>"; };
+		9C11752E1DD858F200C540CA /* HMMessageDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMessageDetailController.swift; sourceTree = "<group>"; };
+		9C25C1AB1DD2C31E00FCE54B /* HMMineCreatedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMineCreatedController.swift; sourceTree = "<group>"; };
+		9C25C1B01DD2C47900FCE54B /* HMMineCreatedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMineCreatedCell.swift; sourceTree = "<group>"; };
+		9C25C1B21DD2C48700FCE54B /* HMMineCreatedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMMineCreatedCell.xib; sourceTree = "<group>"; };
+		9C25C1B41DD3107800FCE54B /* underCheckClub.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = underCheckClub.sql; sourceTree = "<group>"; };
+		9C25C1B61DD3193500FCE54B /* HMSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSettingController.swift; sourceTree = "<group>"; };
+		9C2A51E51DE1538E00333AEC /* ls1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ls1.png; sourceTree = "<group>"; };
+		9C2DC0EA1DD06CFA001359A4 /* HMComposeCreateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeCreateController.swift; sourceTree = "<group>"; };
+		9C2DC0EC1DD06D19001359A4 /* HMComposeCreateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMComposeCreateController.xib; sourceTree = "<group>"; };
+		9C2DC0EE1DD0BE90001359A4 /* HMClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClub.swift; sourceTree = "<group>"; };
+		9C2DC0F01DD0BFEB001359A4 /* Club.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Club.sql; sourceTree = "<group>"; };
+		9C2DC0F21DD16163001359A4 /* HMClubListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubListViewModel.swift; sourceTree = "<group>"; };
+		9C2DC0F51DD16C2A001359A4 /* HMClubDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubDetailController.swift; sourceTree = "<group>"; };
+		9C2DC0F71DD16C35001359A4 /* HMClubDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMClubDetailController.xib; sourceTree = "<group>"; };
+		9C4BEED41DD43839000A07FC /* HMMineJoinedEventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMineJoinedEventController.swift; sourceTree = "<group>"; };
+		9C4BEED61DD43FCB000A07FC /* HMMineJoinedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMineJoinedCell.swift; sourceTree = "<group>"; };
+		9C4BEED81DD43FD3000A07FC /* HMMineJoinedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMMineJoinedCell.xib; sourceTree = "<group>"; };
+		9C4BEEDA1DD456DD000A07FC /* HMApplyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMApplyView.swift; sourceTree = "<group>"; };
+		9C4BEEDC1DD456EC000A07FC /* HMApplyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMApplyView.xib; sourceTree = "<group>"; };
+		9C4BEEDE1DD57680000A07FC /* HMMineJoinedClubController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMineJoinedClubController.swift; sourceTree = "<group>"; };
+		9C4BEEE01DD57701000A07FC /* HMMineJoinedClubCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMineJoinedClubCell.swift; sourceTree = "<group>"; };
+		9C4BEEE21DD57709000A07FC /* HMMineJoinedClubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMMineJoinedClubCell.xib; sourceTree = "<group>"; };
+		9C4BEEE41DD58163000A07FC /* HMUnderCheckClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMUnderCheckClub.swift; sourceTree = "<group>"; };
+		9C4BEEE71DD5BD3C000A07FC /* HMCreatedClubDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCreatedClubDetailController.swift; sourceTree = "<group>"; };
+		9C4BEEE91DD5BD45000A07FC /* HMCreatedClubDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMCreatedClubDetailController.xib; sourceTree = "<group>"; };
+		9C4BEEF51DD700C2000A07FC /* HMClubEventsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubEventsController.swift; sourceTree = "<group>"; };
+		9C6531C01DBC5B58009E7159 /* HMHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHomeCell.swift; sourceTree = "<group>"; };
+		9C6531C21DBC5C1A009E7159 /* HMHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMHomeCell.xib; sourceTree = "<group>"; };
+		9C6531C41DBCFF67009E7159 /* HMClubItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubItemCell.swift; sourceTree = "<group>"; };
+		9C6531C61DBCFF6F009E7159 /* HMClubItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMClubItemCell.xib; sourceTree = "<group>"; };
+		9C6531C81DBDF3C2009E7159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C6531CA1DBDFC36009E7159 /* HMMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMessageCell.swift; sourceTree = "<group>"; };
+		9C6531CC1DBDFC3D009E7159 /* HMMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMMessageCell.xib; sourceTree = "<group>"; };
+		9C6BC0E81DCCBF5B0031B3BE /* HMEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEvent.swift; sourceTree = "<group>"; };
+		9C6BC0EA1DCCC2430031B3BE /* Event.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Event.sql; sourceTree = "<group>"; };
+		9C6BC0EC1DCCC7BB0031B3BE /* HMComposeEventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeEventController.swift; sourceTree = "<group>"; };
+		9C6BC0EE1DCCC7CD0031B3BE /* HMComposeEventController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMComposeEventController.xib; sourceTree = "<group>"; };
+		9C6BC0F21DCCCC700031B3BE /* HMRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMRegistView.xib; sourceTree = "<group>"; };
+		9C6BC0F41DCD75840031B3BE /* HMRegistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRegistView.swift; sourceTree = "<group>"; };
+		9C6EFD031DBE4BA30052C8F3 /* Mine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mine.json; sourceTree = "<group>"; };
+		9C6EFD071DC0D0DA0052C8F3 /* HMProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMProfileCell.xib; sourceTree = "<group>"; };
+		9C6EFD091DC0D1060052C8F3 /* HMProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProfileCell.swift; sourceTree = "<group>"; };
+		9C6EFD0B1DC0D3B10052C8F3 /* HMProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProfileHeaderView.swift; sourceTree = "<group>"; };
+		9C6EFD0D1DC0D3BF0052C8F3 /* HMProfileHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMProfileHeaderView.xib; sourceTree = "<group>"; };
+		9C714B841DDC7B6E000CD622 /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		9C8259DB1DC1F0490042A6F4 /* HMZoneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMZoneController.swift; sourceTree = "<group>"; };
+		9C86574D1DC9993300654F00 /* HMComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeTextView.swift; sourceTree = "<group>"; };
+		9C8657511DC9C19800654F00 /* HMDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDBManager.swift; sourceTree = "<group>"; };
+		9C8657541DC9C35C00654F00 /* HMLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLoginViewController.swift; sourceTree = "<group>"; };
+		9C8657561DC9C37100654F00 /* HMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMLoginViewController.xib; sourceTree = "<group>"; };
+		9C8657581DC9D93100654F00 /* user.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = user.sql; sourceTree = "<group>"; };
+		9C86575D1DCB178D00654F00 /* HMRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRefreshControl.swift; sourceTree = "<group>"; };
+		9C86575E1DCB178D00654F00 /* HMRefreshview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRefreshview.swift; sourceTree = "<group>"; };
+		9C86575F1DCB178D00654F00 /* HMRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMRefreshView.xib; sourceTree = "<group>"; };
+		9C9C09CF1DD710CC0024E5BB /* HMCheckApplyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCheckApplyController.swift; sourceTree = "<group>"; };
+		9C9C09D11DD711E10024E5BB /* HMCheckApplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCheckApplyCell.swift; sourceTree = "<group>"; };
+		9C9C09D31DD711E70024E5BB /* HMCheckApplyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMCheckApplyCell.xib; sourceTree = "<group>"; };
+		9C9C09D51DD745560024E5BB /* HMClubMemberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubMemberController.swift; sourceTree = "<group>"; };
+		9C9C09D71DD74E570024E5BB /* HMPushNoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPushNoteController.swift; sourceTree = "<group>"; };
+		9C9C09D91DD750030024E5BB /* HMPushNoteController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMPushNoteController.xib; sourceTree = "<group>"; };
+		9C9C09DB1DD7558E0024E5BB /* note.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = note.sql; sourceTree = "<group>"; };
+		9C9C7D491DC380AE00F8E3EA /* HMZoneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMZoneCell.swift; sourceTree = "<group>"; };
+		9C9C7D4B1DC380B800F8E3EA /* HMZoneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMZoneCell.xib; sourceTree = "<group>"; };
+		9C9C7D4D1DC38F6F00F8E3EA /* HMUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMUser.swift; sourceTree = "<group>"; };
+		9C9C7D4F1DC3913B00F8E3EA /* HMZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMZone.swift; sourceTree = "<group>"; };
+		9C9C7D511DC4371400F8E3EA /* HMZoneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMZoneViewModel.swift; sourceTree = "<group>"; };
+		9C9C7D531DC43FE700F8E3EA /* HMZoneListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMZoneListViewModel.swift; sourceTree = "<group>"; };
+		9C9C7D5B1DC4441400F8E3EA /* HMSQLManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSQLManager.swift; sourceTree = "<group>"; };
+		9C9C7D5C1DC4441400F8E3EA /* zone.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zone.sql; sourceTree = "<group>"; };
+		9CB5C28F1DCD83B9001DD303 /* HMClubRecommend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMClubRecommend.swift; sourceTree = "<group>"; };
+		9CB5C2911DCD83C0001DD303 /* HMClubRecommend.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMClubRecommend.xib; sourceTree = "<group>"; };
+		9CB5C2931DCD90ED001DD303 /* HMNewUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMNewUserView.swift; sourceTree = "<group>"; };
+		9CC36FED1DD00FEA007BB50E /* HMEventDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEventDetailController.swift; sourceTree = "<group>"; };
+		9CC36FEF1DD00FFC007BB50E /* HMEventDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMEventDetailController.xib; sourceTree = "<group>"; };
+		9CD22DDB1DD808F7007B8DED /* HMNoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMNoteController.swift; sourceTree = "<group>"; };
+		9CD22DDD1DD80938007B8DED /* HMNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMNoteCell.swift; sourceTree = "<group>"; };
+		9CD22DDF1DD80948007B8DED /* HMNoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMNoteCell.xib; sourceTree = "<group>"; };
+		9CDD73B61DC77A93001B498C /* HMMediaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMediaView.swift; sourceTree = "<group>"; };
+		9CDD73B81DC8D0EF001B498C /* HMComposeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeListView.swift; sourceTree = "<group>"; };
+		9CDD73BC1DC8D117001B498C /* HMComposeListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMComposeListView.xib; sourceTree = "<group>"; };
+		9CDD73BE1DC8D552001B498C /* HMComposeBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeBtn.swift; sourceTree = "<group>"; };
+		9CDD73C01DC8D55C001B498C /* HMComposeBtn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMComposeBtn.xib; sourceTree = "<group>"; };
+		9CDD73C31DC981A6001B498C /* HMComposeZoneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeZoneController.swift; sourceTree = "<group>"; };
+		9CDD73C51DC98D0F001B498C /* HMComposeZoneController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMComposeZoneController.xib; sourceTree = "<group>"; };
+		D198AFFB9CCAA8FBF48EE125 /* Pods_club.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_club.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9373A95B9EAD7FE6CBE981D /* Pods-club.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-club.release.xcconfig"; path = "Pods/Target Support Files/Pods-club/Pods-club.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C04117D1DBB02A000754474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473458DE45C9CCE8AE488E61 /* Pods_club.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021C13A93A2E8BE1C0BBD025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D198AFFB9CCAA8FBF48EE125 /* Pods_club.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		792CDD2E1E22ACEC77D60506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34F71B70180A552CDE633034 /* Pods-club.debug.xcconfig */,
+				F9373A95B9EAD7FE6CBE981D /* Pods-club.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C0411771DBB02A000754474 = {
+			isa = PBXGroup;
+			children = (
+				9C0411821DBB02A100754474 /* club */,
+				9C0411811DBB02A100754474 /* Products */,
+				792CDD2E1E22ACEC77D60506 /* Pods */,
+				021C13A93A2E8BE1C0BBD025 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C0411811DBB02A100754474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411801DBB02A100754474 /* club.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C0411821DBB02A100754474 /* club */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411971DBB05A500754474 /* classes */,
+				9C6531C81DBDF3C2009E7159 /* Assets.xcassets */,
+				9C0411831DBB02A100754474 /* AppDelegate.swift */,
+				9C0411E61DBB092400754474 /* WeiBoCommon.swift */,
+				9C0411D31DBB06B100754474 /* Weibo-bridge.h */,
+				9C04118C1DBB02A100754474 /* LaunchScreen.storyboard */,
+				9C2A51E51DE1538E00333AEC /* ls1.png */,
+				9C04118F1DBB02A100754474 /* Info.plist */,
+			);
+			path = club;
+			sourceTree = "<group>";
+		};
+		9C0411971DBB05A500754474 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411981DBB05A500754474 /* main */,
+				9C04119A1DBB05A500754474 /* view(视图和控制器) */,
+				9C04119F1DBB05A500754474 /* viewmodel(视图模型) */,
+				9C0411FF1DBC517200754474 /* model */,
+				9C0411991DBB05A500754474 /* tools */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9C0411981DBB05A500754474 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411EA1DBB101500754474 /* main.json */,
+				9C0411E81DBB0F3400754474 /* HMMainController.swift */,
+				9C0411EC1DBB105000754474 /* HMBaseController.swift */,
+				9C0411F61DBB12A300754474 /* HMNavController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		9C0411991DBB05A500754474 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C7D5A1DC4441400F8E3EA /* SQLite */,
+				9C86575A1DCB178D00654F00 /* HMRefreshControl */,
+				9C0411F81DBB3C8C00754474 /* MenuView */,
+				9C0411D41DBB090400754474 /* PhotoBrowser */,
+				9C0411BA1DBB06A100754474 /* Extensions */,
+				9C0411A01DBB06A100754474 /* Additions */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		9C04119A1DBB05A500754474 /* view(视图和控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				9C8657531DC9C32800654F00 /* login */,
+				9C9C7D5F1DC44B4600F8E3EA /* compose */,
+				9C04119C1DBB05A500754474 /* home */,
+				9C8259DA1DC1F0260042A6F4 /* zone */,
+				9C04119B1DBB05A500754474 /* clubs */,
+				9C04119D1DBB05A500754474 /* message */,
+				9C04119E1DBB05A500754474 /* profile */,
+			);
+			path = "view(视图和控制器)";
+			sourceTree = "<group>";
+		};
+		9C04119B1DBB05A500754474 /* clubs */ = {
+			isa = PBXGroup;
+			children = (
+				9C2DC0F41DD16C10001359A4 /* 社团详细信息 */,
+				9C0411EE1DBB108800754474 /* HMClubsController.swift */,
+				9C6531C41DBCFF67009E7159 /* HMClubItemCell.swift */,
+				9C6531C61DBCFF6F009E7159 /* HMClubItemCell.xib */,
+			);
+			path = clubs;
+			sourceTree = "<group>";
+		};
+		9C04119C1DBB05A500754474 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9CC36FEC1DD00F32007BB50E /* 活动详情页 */,
+				9C0411F01DBB109B00754474 /* HMHomeController.swift */,
+				9C6531C01DBC5B58009E7159 /* HMHomeCell.swift */,
+				9C6531C21DBC5C1A009E7159 /* HMHomeCell.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9C04119D1DBB05A500754474 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				9C11752D1DD858D500C540CA /* messageDetail */,
+				9C0411F21DBB10FC00754474 /* HMMessageController.swift */,
+				9C6531CA1DBDFC36009E7159 /* HMMessageCell.swift */,
+				9C6531CC1DBDFC3D009E7159 /* HMMessageCell.xib */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		9C04119E1DBB05A500754474 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				9C25C1A71DD2BD7D00FCE54B /* 条目对应的控制器 */,
+				9C6EFD031DBE4BA30052C8F3 /* Mine.json */,
+				9C0411F41DBB110700754474 /* HMProfileController.swift */,
+				9C6EFD091DC0D1060052C8F3 /* HMProfileCell.swift */,
+				9C6EFD071DC0D0DA0052C8F3 /* HMProfileCell.xib */,
+				9C6EFD0B1DC0D3B10052C8F3 /* HMProfileHeaderView.swift */,
+				9C6EFD0D1DC0D3BF0052C8F3 /* HMProfileHeaderView.xib */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		9C04119F1DBB05A500754474 /* viewmodel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C7D531DC43FE700F8E3EA /* HMZoneListViewModel.swift */,
+				9C0132FB1DCED6EE00641B59 /* HMEventListViewModel.swift */,
+				9C2DC0F21DD16163001359A4 /* HMClubListViewModel.swift */,
+				9C9C7D511DC4371400F8E3EA /* HMZoneViewModel.swift */,
+			);
+			path = "viewmodel(视图模型)";
+			sourceTree = "<group>";
+		};
+		9C0411A01DBB06A100754474 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411A11DBB06A100754474 /* CZAdditions.h */,
+				9C0411A21DBB06A100754474 /* NSArray+Log.h */,
+				9C0411A31DBB06A100754474 /* NSArray+Log.m */,
+				9C0411A41DBB06A100754474 /* NSAttributedString+CZAdditon.h */,
+				9C0411A51DBB06A100754474 /* NSAttributedString+CZAdditon.m */,
+				9C0411A61DBB06A100754474 /* NSObject+CZRuntime.h */,
+				9C0411A71DBB06A100754474 /* NSObject+CZRuntime.m */,
+				9C0411A81DBB06A100754474 /* NSString+CZBase64.h */,
+				9C0411A91DBB06A100754474 /* NSString+CZBase64.m */,
+				9C0411AA1DBB06A100754474 /* NSString+CZHash.h */,
+				9C0411AB1DBB06A100754474 /* NSString+CZHash.m */,
+				9C0411AC1DBB06A100754474 /* NSString+CZPath.h */,
+				9C0411AD1DBB06A100754474 /* NSString+CZPath.m */,
+				9C0411AE1DBB06A100754474 /* UIButton+CZAddition.h */,
+				9C0411AF1DBB06A100754474 /* UIButton+CZAddition.m */,
+				9C0411B01DBB06A100754474 /* UIColor+CZAddition.h */,
+				9C0411B11DBB06A100754474 /* UIColor+CZAddition.m */,
+				9C0411B21DBB06A100754474 /* UILabel+CZAddition.h */,
+				9C0411B31DBB06A100754474 /* UILabel+CZAddition.m */,
+				9C0411B41DBB06A100754474 /* UIScreen+CZAddition.h */,
+				9C0411B51DBB06A100754474 /* UIScreen+CZAddition.m */,
+				9C0411B61DBB06A100754474 /* UIView+CZAddition.h */,
+				9C0411B71DBB06A100754474 /* UIView+CZAddition.m */,
+				9C0411B81DBB06A100754474 /* UIViewController+CZAddition.h */,
+				9C0411B91DBB06A100754474 /* UIViewController+CZAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		9C0411BA1DBB06A100754474 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C714B841DDC7B6E000CD622 /* UIImageView+WebImage.swift */,
+				9C0411BB1DBB06A100754474 /* Bundle+Extension.swift */,
+				9C0411BC1DBB06A100754474 /* Date+Extension.swift */,
+				9C0411BD1DBB06A100754474 /* String+Extension.swift */,
+				9C0411BE1DBB06A100754474 /* UIBarButtonItem+Extension.swift */,
+				9C0411BF1DBB06A100754474 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C0411D41DBB090400754474 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411D51DBB090400754474 /* HMPhotoBrowserAnimator.h */,
+				9C0411D61DBB090400754474 /* HMPhotoBrowserAnimator.m */,
+				9C0411D71DBB090400754474 /* HMPhotoBrowserController.h */,
+				9C0411D81DBB090400754474 /* HMPhotoBrowserController.m */,
+				9C0411D91DBB090400754474 /* HMPhotoBrowserPhotos.h */,
+				9C0411DA1DBB090400754474 /* HMPhotoBrowserPhotos.m */,
+				9C0411DB1DBB090400754474 /* HMPhotoProgressView.h */,
+				9C0411DC1DBB090400754474 /* HMPhotoProgressView.m */,
+				9C0411DD1DBB090400754474 /* HMPhotoViewerController.h */,
+				9C0411DE1DBB090400754474 /* HMPhotoViewerController.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9C0411F81DBB3C8C00754474 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				9C0411F91DBB3CB000754474 /* HMMenuView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		9C0411FF1DBC517200754474 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9C4BEEE41DD58163000A07FC /* HMUnderCheckClub.swift */,
+				9C2DC0EE1DD0BE90001359A4 /* HMClub.swift */,
+				9C6BC0E81DCCBF5B0031B3BE /* HMEvent.swift */,
+				9C9C7D4F1DC3913B00F8E3EA /* HMZone.swift */,
+				9C9C7D4D1DC38F6F00F8E3EA /* HMUser.swift */,
+				9C8657511DC9C19800654F00 /* HMDBManager.swift */,
+			);
+			name = model;
+			path = "viewmodel(视图模型)/model";
+			sourceTree = "<group>";
+		};
+		9C11752D1DD858D500C540CA /* messageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9C11752E1DD858F200C540CA /* HMMessageDetailController.swift */,
+			);
+			path = messageDetail;
+			sourceTree = "<group>";
+		};
+		9C25C1A71DD2BD7D00FCE54B /* 条目对应的控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				9C25C1AA1DD2C31E00FCE54B /* 我创建的社团 */,
+				9C25C1AE1DD2C39D00FCE54B /* 我参加的活动 */,
+				9C25C1AF1DD2C39D00FCE54B /* 我加入的社团 */,
+				9C25C1AD1DD2C39D00FCE54B /* 设置 */,
+			);
+			path = "条目对应的控制器";
+			sourceTree = "<group>";
+		};
+		9C25C1AA1DD2C31E00FCE54B /* 我创建的社团 */ = {
+			isa = PBXGroup;
+			children = (
+				9C4BEEE61DD5B4AB000A07FC /* 创建的社团详情界面 */,
+				9C25C1AB1DD2C31E00FCE54B /* HMMineCreatedController.swift */,
+				9C25C1B01DD2C47900FCE54B /* HMMineCreatedCell.swift */,
+				9C25C1B21DD2C48700FCE54B /* HMMineCreatedCell.xib */,
+			);
+			path = "我创建的社团";
+			sourceTree = "<group>";
+		};
+		9C25C1AD1DD2C39D00FCE54B /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				9C25C1B61DD3193500FCE54B /* HMSettingController.swift */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		9C25C1AE1DD2C39D00FCE54B /* 我参加的活动 */ = {
+			isa = PBXGroup;
+			children = (
+				9C4BEED41DD43839000A07FC /* HMMineJoinedEventController.swift */,
+				9C4BEED61DD43FCB000A07FC /* HMMineJoinedCell.swift */,
+				9C4BEED81DD43FD3000A07FC /* HMMineJoinedCell.xib */,
+			);
+			path = "我参加的活动";
+			sourceTree = "<group>";
+		};
+		9C25C1AF1DD2C39D00FCE54B /* 我加入的社团 */ = {
+			isa = PBXGroup;
+			children = (
+				9C4BEEDE1DD57680000A07FC /* HMMineJoinedClubController.swift */,
+				9C4BEEE01DD57701000A07FC /* HMMineJoinedClubCell.swift */,
+				9C4BEEE21DD57709000A07FC /* HMMineJoinedClubCell.xib */,
+			);
+			name = "我加入的社团";
+			path = "我喜欢的社团";
+			sourceTree = "<group>";
+		};
+		9C2DC0F41DD16C10001359A4 /* 社团详细信息 */ = {
+			isa = PBXGroup;
+			children = (
+				9C2DC0F51DD16C2A001359A4 /* HMClubDetailController.swift */,
+				9C2DC0F71DD16C35001359A4 /* HMClubDetailController.xib */,
+				9C4BEEDA1DD456DD000A07FC /* HMApplyView.swift */,
+				9C4BEEDC1DD456EC000A07FC /* HMApplyView.xib */,
+			);
+			path = "社团详细信息";
+			sourceTree = "<group>";
+		};
+		9C4BEEE61DD5B4AB000A07FC /* 创建的社团详情界面 */ = {
+			isa = PBXGroup;
+			children = (
+				9C4BEEF21DD700C2000A07FC /* 社团活动 */,
+				9C4BEEFA1DD702EC000A07FC /* 社团成员 */,
+				9C4BEEFC1DD702EC000A07FC /* 社团通知 */,
+				9C4BEEF91DD702EC000A07FC /* 发布通知 */,
+				9C4BEEFD1DD702EC000A07FC /* 验证管理 */,
+				9C4BEEFB1DD702EC000A07FC /* 社团设置 */,
+				9C4BEEE71DD5BD3C000A07FC /* HMCreatedClubDetailController.swift */,
+				9C4BEEE91DD5BD45000A07FC /* HMCreatedClubDetailController.xib */,
+			);
+			path = "创建的社团详情界面";
+			sourceTree = "<group>";
+		};
+		9C4BEEF21DD700C2000A07FC /* 社团活动 */ = {
+			isa = PBXGroup;
+			children = (
+				9C4BEEF51DD700C2000A07FC /* HMClubEventsController.swift */,
+			);
+			path = "社团活动";
+			sourceTree = "<group>";
+		};
+		9C4BEEF91DD702EC000A07FC /* 发布通知 */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C09D71DD74E570024E5BB /* HMPushNoteController.swift */,
+				9C9C09D91DD750030024E5BB /* HMPushNoteController.xib */,
+			);
+			path = "发布通知";
+			sourceTree = "<group>";
+		};
+		9C4BEEFA1DD702EC000A07FC /* 社团成员 */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C09D51DD745560024E5BB /* HMClubMemberController.swift */,
+			);
+			path = "社团成员";
+			sourceTree = "<group>";
+		};
+		9C4BEEFB1DD702EC000A07FC /* 社团设置 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "社团设置";
+			sourceTree = "<group>";
+		};
+		9C4BEEFC1DD702EC000A07FC /* 社团通知 */ = {
+			isa = PBXGroup;
+			children = (
+				9CD22DDB1DD808F7007B8DED /* HMNoteController.swift */,
+				9CD22DDD1DD80938007B8DED /* HMNoteCell.swift */,
+				9CD22DDF1DD80948007B8DED /* HMNoteCell.xib */,
+			);
+			path = "社团通知";
+			sourceTree = "<group>";
+		};
+		9C4BEEFD1DD702EC000A07FC /* 验证管理 */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C09CF1DD710CC0024E5BB /* HMCheckApplyController.swift */,
+				9C9C09D11DD711E10024E5BB /* HMCheckApplyCell.swift */,
+				9C9C09D31DD711E70024E5BB /* HMCheckApplyCell.xib */,
+			);
+			path = "验证管理";
+			sourceTree = "<group>";
+		};
+		9C8259DA1DC1F0260042A6F4 /* zone */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C7D481DC3809500F8E3EA /* ZoneCell */,
+				9C8259DB1DC1F0490042A6F4 /* HMZoneController.swift */,
+			);
+			path = zone;
+			sourceTree = "<group>";
+		};
+		9C8657531DC9C32800654F00 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9C8657541DC9C35C00654F00 /* HMLoginViewController.swift */,
+				9C8657561DC9C37100654F00 /* HMLoginViewController.xib */,
+				9C6BC0F41DCD75840031B3BE /* HMRegistView.swift */,
+				9C6BC0F21DCCCC700031B3BE /* HMRegistView.xib */,
+				9CB5C28F1DCD83B9001DD303 /* HMClubRecommend.swift */,
+				9CB5C2911DCD83C0001DD303 /* HMClubRecommend.xib */,
+				9CB5C2931DCD90ED001DD303 /* HMNewUserView.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		9C86575A1DCB178D00654F00 /* HMRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				9C86575D1DCB178D00654F00 /* HMRefreshControl.swift */,
+				9C86575E1DCB178D00654F00 /* HMRefreshview.swift */,
+				9C86575F1DCB178D00654F00 /* HMRefreshView.xib */,
+			);
+			path = HMRefreshControl;
+			sourceTree = "<group>";
+		};
+		9C9C7D481DC3809500F8E3EA /* ZoneCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C7D491DC380AE00F8E3EA /* HMZoneCell.swift */,
+				9C9C7D4B1DC380B800F8E3EA /* HMZoneCell.xib */,
+				9CDD73B61DC77A93001B498C /* HMMediaView.swift */,
+			);
+			path = ZoneCell;
+			sourceTree = "<group>";
+		};
+		9C9C7D5A1DC4441400F8E3EA /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C7D5B1DC4441400F8E3EA /* HMSQLManager.swift */,
+				9C9C7D5C1DC4441400F8E3EA /* zone.sql */,
+				9C8657581DC9D93100654F00 /* user.sql */,
+				9C6BC0EA1DCCC2430031B3BE /* Event.sql */,
+				9C2DC0F01DD0BFEB001359A4 /* Club.sql */,
+				9C25C1B41DD3107800FCE54B /* underCheckClub.sql */,
+				9C9C09DB1DD7558E0024E5BB /* note.sql */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		9C9C7D5F1DC44B4600F8E3EA /* compose */ = {
+			isa = PBXGroup;
+			children = (
+				9CDD73C21DC98169001B498C /* 三个按钮对应的控制器 */,
+				9CDD73B81DC8D0EF001B498C /* HMComposeListView.swift */,
+				9CDD73BC1DC8D117001B498C /* HMComposeListView.xib */,
+				9CDD73BE1DC8D552001B498C /* HMComposeBtn.swift */,
+				9CDD73C01DC8D55C001B498C /* HMComposeBtn.xib */,
+				9C86574D1DC9993300654F00 /* HMComposeTextView.swift */,
+			);
+			path = compose;
+			sourceTree = "<group>";
+		};
+		9CC36FEC1DD00F32007BB50E /* 活动详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				9CC36FED1DD00FEA007BB50E /* HMEventDetailController.swift */,
+				9CC36FEF1DD00FFC007BB50E /* HMEventDetailController.xib */,
+			);
+			path = "活动详情页";
+			sourceTree = "<group>";
+		};
+		9CDD73C21DC98169001B498C /* 三个按钮对应的控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				9CDD73C31DC981A6001B498C /* HMComposeZoneController.swift */,
+				9CDD73C51DC98D0F001B498C /* HMComposeZoneController.xib */,
+				9C6BC0EC1DCCC7BB0031B3BE /* HMComposeEventController.swift */,
+				9C6BC0EE1DCCC7CD0031B3BE /* HMComposeEventController.xib */,
+				9C2DC0EA1DD06CFA001359A4 /* HMComposeCreateController.swift */,
+				9C2DC0EC1DD06D19001359A4 /* HMComposeCreateController.xib */,
+			);
+			path = "三个按钮对应的控制器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C04117F1DBB02A000754474 /* club */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0411921DBB02A100754474 /* Build configuration list for PBXNativeTarget "club" */;
+			buildPhases = (
+				528356D18AD5CDA1911965EB /* [CP] Check Pods Manifest.lock */,
+				9C04117C1DBB02A000754474 /* Sources */,
+				9C04117D1DBB02A000754474 /* Frameworks */,
+				9C04117E1DBB02A000754474 /* Resources */,
+				7E5F4D5AD3F920E0E32D969D /* [CP] Embed Pods Frameworks */,
+				4CB31A1E7A3F054EEB2B8C64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = club;
+			productName = club;
+			productReference = 9C0411801DBB02A100754474 /* club.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C0411781DBB02A000754474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Temple;
+				TargetAttributes = {
+					9C04117F1DBB02A000754474 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M46G6Y7UB3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C04117B1DBB02A000754474 /* Build configuration list for PBXProject "club" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C0411771DBB02A000754474;
+			productRefGroup = 9C0411811DBB02A100754474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C04117F1DBB02A000754474 /* club */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C04117E1DBB02A000754474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4BEED91DD43FD3000A07FC /* HMMineJoinedCell.xib in Resources */,
+				9C2DC0F81DD16C35001359A4 /* HMClubDetailController.xib in Resources */,
+				9C8657571DC9C37100654F00 /* HMLoginViewController.xib in Resources */,
+				9C25C1B31DD2C48700FCE54B /* HMMineCreatedCell.xib in Resources */,
+				9C9C7D4C1DC380B800F8E3EA /* HMZoneCell.xib in Resources */,
+				9C6EFD081DC0D0DA0052C8F3 /* HMProfileCell.xib in Resources */,
+				9C2A51E61DE1538E00333AEC /* ls1.png in Resources */,
+				9C6BC0EB1DCCC2430031B3BE /* Event.sql in Resources */,
+				9C2DC0F11DD0BFEB001359A4 /* Club.sql in Resources */,
+				9C9C09DC1DD7558E0024E5BB /* note.sql in Resources */,
+				9C6EFD041DBE4BA30052C8F3 /* Mine.json in Resources */,
+				9C6BC0EF1DCCC7CD0031B3BE /* HMComposeEventController.xib in Resources */,
+				9CB5C2921DCD83C0001DD303 /* HMClubRecommend.xib in Resources */,
+				9CD22DE01DD80948007B8DED /* HMNoteCell.xib in Resources */,
+				9C2DC0ED1DD06D19001359A4 /* HMComposeCreateController.xib in Resources */,
+				9C0411EB1DBB101500754474 /* main.json in Resources */,
+				9C8657591DC9D93100654F00 /* user.sql in Resources */,
+				9C4BEEDD1DD456EC000A07FC /* HMApplyView.xib in Resources */,
+				9C4BEEEA1DD5BD45000A07FC /* HMCreatedClubDetailController.xib in Resources */,
+				9C8657641DCB178D00654F00 /* HMRefreshView.xib in Resources */,
+				9CDD73BD1DC8D117001B498C /* HMComposeListView.xib in Resources */,
+				9C6531C71DBCFF6F009E7159 /* HMClubItemCell.xib in Resources */,
+				9C25C1B51DD3107800FCE54B /* underCheckClub.sql in Resources */,
+				9C6531CD1DBDFC3D009E7159 /* HMMessageCell.xib in Resources */,
+				9C6531C31DBC5C1A009E7159 /* HMHomeCell.xib in Resources */,
+				9CDD73C11DC8D55C001B498C /* HMComposeBtn.xib in Resources */,
+				9C4BEEE31DD57709000A07FC /* HMMineJoinedClubCell.xib in Resources */,
+				9C9C09DA1DD750030024E5BB /* HMPushNoteController.xib in Resources */,
+				9CDD73C61DC98D0F001B498C /* HMComposeZoneController.xib in Resources */,
+				9CC36FF01DD00FFC007BB50E /* HMEventDetailController.xib in Resources */,
+				9C6EFD0E1DC0D3BF0052C8F3 /* HMProfileHeaderView.xib in Resources */,
+				9C04118E1DBB02A100754474 /* LaunchScreen.storyboard in Resources */,
+				9C6531C91DBDF3C3009E7159 /* Assets.xcassets in Resources */,
+				9C6BC0F31DCCCC700031B3BE /* HMRegistView.xib in Resources */,
+				9C9C09D41DD711E70024E5BB /* HMCheckApplyCell.xib in Resources */,
+				9C9C7D5E1DC4441400F8E3EA /* zone.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CB31A1E7A3F054EEB2B8C64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-club/Pods-club-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528356D18AD5CDA1911965EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E5F4D5AD3F920E0E32D969D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-club/Pods-club-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C04117C1DBB02A000754474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4BEED71DD43FCB000A07FC /* HMMineJoinedCell.swift in Sources */,
+				9CDD73BF1DC8D552001B498C /* HMComposeBtn.swift in Sources */,
+				9CB5C2901DCD83B9001DD303 /* HMClubRecommend.swift in Sources */,
+				9C9C7D501DC3913B00F8E3EA /* HMZone.swift in Sources */,
+				9CB5C2941DCD90ED001DD303 /* HMNewUserView.swift in Sources */,
+				9C0411CF1DBB06A100754474 /* String+Extension.swift in Sources */,
+				9C0411CC1DBB06A100754474 /* UIViewController+CZAddition.m in Sources */,
+				9C8657621DCB178D00654F00 /* HMRefreshControl.swift in Sources */,
+				9C4BEEE51DD58163000A07FC /* HMUnderCheckClub.swift in Sources */,
+				9C0411CD1DBB06A100754474 /* Bundle+Extension.swift in Sources */,
+				9C25C1B71DD3193500FCE54B /* HMSettingController.swift in Sources */,
+				9C25C1B11DD2C47900FCE54B /* HMMineCreatedCell.swift in Sources */,
+				9C9C7D521DC4371400F8E3EA /* HMZoneViewModel.swift in Sources */,
+				9C2DC0F61DD16C2A001359A4 /* HMClubDetailController.swift in Sources */,
+				9C6531C51DBCFF67009E7159 /* HMClubItemCell.swift in Sources */,
+				9C0411841DBB02A100754474 /* AppDelegate.swift in Sources */,
+				9C0411C11DBB06A100754474 /* NSArray+Log.m in Sources */,
+				9C0411DF1DBB090400754474 /* HMPhotoBrowserAnimator.m in Sources */,
+				9C6BC0E91DCCBF5B0031B3BE /* HMEvent.swift in Sources */,
+				9C0411CA1DBB06A100754474 /* UIScreen+CZAddition.m in Sources */,
+				9C6531CB1DBDFC36009E7159 /* HMMessageCell.swift in Sources */,
+				9C8259DC1DC1F0490042A6F4 /* HMZoneController.swift in Sources */,
+				9C0411EF1DBB108800754474 /* HMClubsController.swift in Sources */,
+				9C0411CE1DBB06A100754474 /* Date+Extension.swift in Sources */,
+				9C0411E91DBB0F3400754474 /* HMMainController.swift in Sources */,
+				9C0411E71DBB092400754474 /* WeiBoCommon.swift in Sources */,
+				9C8657521DC9C19800654F00 /* HMDBManager.swift in Sources */,
+				9C2DC0F31DD16163001359A4 /* HMClubListViewModel.swift in Sources */,
+				9CC36FEE1DD00FEB007BB50E /* HMEventDetailController.swift in Sources */,
+				9C0411E31DBB090400754474 /* HMPhotoViewerController.m in Sources */,
+				9C4BEEF81DD700C2000A07FC /* HMClubEventsController.swift in Sources */,
+				9C0411CB1DBB06A100754474 /* UIView+CZAddition.m in Sources */,
+				9CDD73C41DC981A6001B498C /* HMComposeZoneController.swift in Sources */,
+				9CD22DDE1DD80938007B8DED /* HMNoteCell.swift in Sources */,
+				9C6EFD0C1DC0D3B10052C8F3 /* HMProfileHeaderView.swift in Sources */,
+				9C0411F71DBB12A300754474 /* HMNavController.swift in Sources */,
+				9C9C09D81DD74E570024E5BB /* HMPushNoteController.swift in Sources */,
+				9C4BEEE81DD5BD3C000A07FC /* HMCreatedClubDetailController.swift in Sources */,
+				9C9C09D01DD710CC0024E5BB /* HMCheckApplyController.swift in Sources */,
+				9CDD73B71DC77A93001B498C /* HMMediaView.swift in Sources */,
+				9C9C7D4E1DC38F6F00F8E3EA /* HMUser.swift in Sources */,
+				9C2DC0EB1DD06CFA001359A4 /* HMComposeCreateController.swift in Sources */,
+				9C4BEED51DD43839000A07FC /* HMMineJoinedEventController.swift in Sources */,
+				9C6BC0F51DCD75840031B3BE /* HMRegistView.swift in Sources */,
+				9C4BEEDB1DD456DD000A07FC /* HMApplyView.swift in Sources */,
+				9C0411E01DBB090400754474 /* HMPhotoBrowserController.m in Sources */,
+				9C9C7D4A1DC380AE00F8E3EA /* HMZoneCell.swift in Sources */,
+				9C9C7D5D1DC4441400F8E3EA /* HMSQLManager.swift in Sources */,
+				9C0411FA1DBB3CB000754474 /* HMMenuView.swift in Sources */,
+				9CDD73B91DC8D0EF001B498C /* HMComposeListView.swift in Sources */,
+				9C9C09D21DD711E10024E5BB /* HMCheckApplyCell.swift in Sources */,
+				9C9C7D541DC43FE700F8E3EA /* HMZoneListViewModel.swift in Sources */,
+				9C0411C21DBB06A100754474 /* NSAttributedString+CZAdditon.m in Sources */,
+				9C0411F51DBB110700754474 /* HMProfileController.swift in Sources */,
+				9C6BC0ED1DCCC7BB0031B3BE /* HMComposeEventController.swift in Sources */,
+				9C0411C31DBB06A100754474 /* NSObject+CZRuntime.m in Sources */,
+				9C2DC0EF1DD0BE90001359A4 /* HMClub.swift in Sources */,
+				9C0411ED1DBB105000754474 /* HMBaseController.swift in Sources */,
+				9C0411F11DBB109B00754474 /* HMHomeController.swift in Sources */,
+				9C0132FC1DCED6EE00641B59 /* HMEventListViewModel.swift in Sources */,
+				9C0411C61DBB06A100754474 /* NSString+CZPath.m in Sources */,
+				9C0411C51DBB06A100754474 /* NSString+CZHash.m in Sources */,
+				9C0411C71DBB06A100754474 /* UIButton+CZAddition.m in Sources */,
+				9C0411C91DBB06A100754474 /* UILabel+CZAddition.m in Sources */,
+				9C0411C41DBB06A100754474 /* NSString+CZBase64.m in Sources */,
+				9CD22DDC1DD808F7007B8DED /* HMNoteController.swift in Sources */,
+				9C0411F31DBB10FC00754474 /* HMMessageController.swift in Sources */,
+				9C25C1AC1DD2C31E00FCE54B /* HMMineCreatedController.swift in Sources */,
+				9C8657551DC9C35C00654F00 /* HMLoginViewController.swift in Sources */,
+				9C86574E1DC9993300654F00 /* HMComposeTextView.swift in Sources */,
+				9C0411D11DBB06A100754474 /* UIImage+Extensions.swift in Sources */,
+				9C6EFD0A1DC0D1060052C8F3 /* HMProfileCell.swift in Sources */,
+				9C6531C11DBC5B58009E7159 /* HMHomeCell.swift in Sources */,
+				9C0411C81DBB06A100754474 /* UIColor+CZAddition.m in Sources */,
+				9C4BEEE11DD57701000A07FC /* HMMineJoinedClubCell.swift in Sources */,
+				9C0411D01DBB06A100754474 /* UIBarButtonItem+Extension.swift in Sources */,
+				9C8657631DCB178D00654F00 /* HMRefreshview.swift in Sources */,
+				9C11752F1DD858F200C540CA /* HMMessageDetailController.swift in Sources */,
+				9C9C09D61DD745560024E5BB /* HMClubMemberController.swift in Sources */,
+				9C0411E21DBB090400754474 /* HMPhotoProgressView.m in Sources */,
+				9C4BEEDF1DD57680000A07FC /* HMMineJoinedClubController.swift in Sources */,
+				9C714B851DDC7B6E000CD622 /* UIImageView+WebImage.swift in Sources */,
+				9C0411E11DBB090400754474 /* HMPhotoBrowserPhotos.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C04118C1DBB02A100754474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C04118D1DBB02A100754474 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C0411901DBB02A100754474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C0411911DBB02A100754474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C0411931DBB02A100754474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F71B70180A552CDE633034 /* Pods-club.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M46G6Y7UB3;
+				INFOPLIST_FILE = club/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.club.club;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "club/Weibo-bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C0411941DBB02A100754474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9373A95B9EAD7FE6CBE981D /* Pods-club.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M46G6Y7UB3;
+				INFOPLIST_FILE = club/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.club.club;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "club/Weibo-bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C04117B1DBB02A000754474 /* Build configuration list for PBXProject "club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0411901DBB02A100754474 /* Debug */,
+				9C0411911DBB02A100754474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0411921DBB02A100754474 /* Build configuration list for PBXNativeTarget "club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0411931DBB02A100754474 /* Debug */,
+				9C0411941DBB02A100754474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C0411781DBB02A000754474 /* Project object */;
+}

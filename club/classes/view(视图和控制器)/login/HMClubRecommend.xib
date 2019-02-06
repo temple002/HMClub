@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="ttn-FS-H9T" customClass="HMClubRecommend" customModule="club" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registBg7" translatesAutoresizingMaskIntoConstraints="NO" id="Vva-lW-i04">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40z-ut-RAH">
+                    <rect key="frame" x="0.0" y="150" width="320" height="271"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="挑选一些你喜欢的社团吧..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUj-4l-uE3">
+                            <rect key="frame" x="8" y="23" width="228.5" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" red="0.80875400639999995" green="0.80875400639999995" blue="0.80875400639999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hms-B1-WbV">
+                            <rect key="frame" x="40" y="87" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="OY6-Tr-D40"/>
+                                <constraint firstAttribute="height" constant="36" id="vHN-nB-9so"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="篮球社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gA-T6-Mpv">
+                            <rect key="frame" x="127" y="87" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="j7X-lI-FNn"/>
+                                <constraint firstAttribute="height" constant="36" id="qgz-wf-R2d"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="骑行社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSX-nM-j0Z">
+                            <rect key="frame" x="214" y="87" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="hsi-Iw-CqB"/>
+                                <constraint firstAttribute="height" constant="36" id="s8o-eP-soh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="登山社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJn-7l-UJw">
+                            <rect key="frame" x="40" y="144" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="shG-eM-lwg"/>
+                                <constraint firstAttribute="height" constant="36" id="vqz-NE-A9f"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="游泳社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="focused">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxC-df-luO">
+                            <rect key="frame" x="127" y="144" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="JIQ-KF-Rdv"/>
+                                <constraint firstAttribute="height" constant="36" id="Z37-XZ-nuH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="足球社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5V-CO-zmN">
+                            <rect key="frame" x="40" y="201" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="Bkv-PW-9re"/>
+                                <constraint firstAttribute="width" constant="66" id="OjG-fd-poI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="旅行社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-gh-6um">
+                            <rect key="frame" x="127" y="201" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="5eX-GM-aiE"/>
+                                <constraint firstAttribute="height" constant="36" id="j0b-Vs-rvz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="植树社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYl-jY-ze2">
+                            <rect key="frame" x="214" y="201" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="Jrj-7t-Cip"/>
+                                <constraint firstAttribute="height" constant="36" id="exE-7F-onV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="电影社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k06-aB-4yU">
+                            <rect key="frame" x="214" y="144" width="66" height="36"/>
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.34509803919999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="eGs-le-aW6"/>
+                                <constraint firstAttribute="height" constant="36" id="oqA-qx-fEt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="跑步社"/>
+                            <state key="selected">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bSX-nM-j0Z" secondAttribute="trailing" constant="40" id="4Za-NQ-M9o"/>
+                        <constraint firstItem="CxC-df-luO" firstAttribute="bottom" secondItem="FJn-7l-UJw" secondAttribute="bottom" id="Bct-tp-bc1"/>
+                        <constraint firstAttribute="trailing" secondItem="VYl-jY-ze2" secondAttribute="trailing" constant="40" id="DFi-Yq-HUM"/>
+                        <constraint firstItem="k06-aB-4yU" firstAttribute="bottom" secondItem="CxC-df-luO" secondAttribute="bottom" id="DQV-98-6pb"/>
+                        <constraint firstItem="pUj-4l-uE3" firstAttribute="leading" secondItem="40z-ut-RAH" secondAttribute="leading" constant="8" id="Ioj-ao-toi"/>
+                        <constraint firstAttribute="bottom" secondItem="VYl-jY-ze2" secondAttribute="bottom" constant="34" id="JN9-Ki-uqY"/>
+                        <constraint firstAttribute="bottom" secondItem="o5V-CO-zmN" secondAttribute="bottom" constant="34" id="Mo8-90-67T"/>
+                        <constraint firstAttribute="height" constant="271" id="RdB-DN-3zN"/>
+                        <constraint firstItem="3gA-T6-Mpv" firstAttribute="centerX" secondItem="40z-ut-RAH" secondAttribute="centerX" id="a87-X2-vBp"/>
+                        <constraint firstItem="Hms-B1-WbV" firstAttribute="leading" secondItem="40z-ut-RAH" secondAttribute="leading" constant="40" id="f9y-54-0xs"/>
+                        <constraint firstItem="3gA-T6-Mpv" firstAttribute="bottom" secondItem="Hms-B1-WbV" secondAttribute="bottom" id="hBQ-3G-oaV"/>
+                        <constraint firstItem="FJn-7l-UJw" firstAttribute="leading" secondItem="40z-ut-RAH" secondAttribute="leading" constant="40" id="hBe-AT-TNb"/>
+                        <constraint firstItem="CxC-df-luO" firstAttribute="centerX" secondItem="40z-ut-RAH" secondAttribute="centerX" id="iIe-MN-eZf"/>
+                        <constraint firstItem="pUj-4l-uE3" firstAttribute="top" secondItem="40z-ut-RAH" secondAttribute="top" constant="23" id="jW5-Cx-LBr"/>
+                        <constraint firstItem="o5V-CO-zmN" firstAttribute="leading" secondItem="40z-ut-RAH" secondAttribute="leading" constant="40" id="rb1-J3-OsH"/>
+                        <constraint firstItem="FJn-7l-UJw" firstAttribute="top" secondItem="Hms-B1-WbV" secondAttribute="bottom" constant="21" id="rs7-Em-NCf"/>
+                        <constraint firstItem="bSX-nM-j0Z" firstAttribute="bottom" secondItem="3gA-T6-Mpv" secondAttribute="bottom" id="upZ-Fc-8ZJ"/>
+                        <constraint firstItem="hu0-gh-6um" firstAttribute="centerX" secondItem="40z-ut-RAH" secondAttribute="centerX" id="wNV-Ya-QT2"/>
+                        <constraint firstAttribute="trailing" secondItem="k06-aB-4yU" secondAttribute="trailing" constant="40" id="wdI-jy-80w"/>
+                        <constraint firstItem="o5V-CO-zmN" firstAttribute="top" secondItem="FJn-7l-UJw" secondAttribute="bottom" constant="21" id="xIi-HQ-noT"/>
+                        <constraint firstItem="hu0-gh-6um" firstAttribute="bottom" secondItem="o5V-CO-zmN" secondAttribute="bottom" id="zZw-gf-kYO"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-qm-oWy">
+                    <rect key="frame" x="35" y="447" width="250" height="45"/>
+                    <color key="backgroundColor" red="0.28235294117647058" green="0.34509803921568627" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="40K-J9-ecL"/>
+                        <constraint firstAttribute="width" constant="250" id="Zke-Vn-YnM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="开启精彩社团生活"/>
+                    <connections>
+                        <action selector="openClick" destination="ttn-FS-H9T" eventType="touchUpInside" id="UPK-YJ-Lvz"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJk-gl-NZb">
+                    <rect key="frame" x="89.5" y="62" width="142" height="49"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="0.0" height="2"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Vva-lW-i04" secondAttribute="trailing" id="DYc-0n-lfo"/>
+                <constraint firstItem="40z-ut-RAH" firstAttribute="leading" secondItem="ttn-FS-H9T" secondAttribute="leading" id="F5a-E4-1Ym"/>
+                <constraint firstItem="40z-ut-RAH" firstAttribute="top" secondItem="LJk-gl-NZb" secondAttribute="bottom" constant="39" id="HY1-CL-UlU"/>
+                <constraint firstItem="LZm-qm-oWy" firstAttribute="centerX" secondItem="40z-ut-RAH" secondAttribute="centerX" id="NNe-dv-aQa"/>
+                <constraint firstItem="LJk-gl-NZb" firstAttribute="centerX" secondItem="ttn-FS-H9T" secondAttribute="centerX" id="gqf-au-mUw"/>
+                <constraint firstAttribute="bottom" secondItem="Vva-lW-i04" secondAttribute="bottom" id="ler-0B-KW5"/>
+                <constraint firstItem="Vva-lW-i04" firstAttribute="leading" secondItem="ttn-FS-H9T" secondAttribute="leading" id="oHQ-Fr-X3W"/>
+                <constraint firstAttribute="trailing" secondItem="40z-ut-RAH" secondAttribute="trailing" id="s3k-1X-5HH"/>
+                <constraint firstItem="LZm-qm-oWy" firstAttribute="top" secondItem="40z-ut-RAH" secondAttribute="bottom" constant="26" id="tch-QW-1zO"/>
+                <constraint firstItem="Vva-lW-i04" firstAttribute="top" secondItem="ttn-FS-H9T" secondAttribute="top" id="upH-S9-sUN"/>
+                <constraint firstItem="LJk-gl-NZb" firstAttribute="top" secondItem="ttn-FS-H9T" secondAttribute="top" constant="62" id="ve2-NE-JR2"/>
+            </constraints>
+            <connections>
+                <outlet property="loveClubView" destination="40z-ut-RAH" id="2Ks-OD-rIC"/>
+                <outlet property="openBtn" destination="LZm-qm-oWy" id="a5b-Hy-gGg"/>
+            </connections>
+            <point key="canvasLocation" x="-150" y="74"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="registBg7" width="580" height="435"/>
+    </resources>
+</document>

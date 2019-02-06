@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="skf-vh-cBt" customClass="HMClubItemCell" customModule="club" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clubIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Dl6-QD-7O2">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="Qpj-mE-UZV"/>
+                            <constraint firstAttribute="width" constant="120" id="vjG-r8-YpL"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="篮球社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZn-2Z-F79">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Dl6-QD-7O2" firstAttribute="top" secondItem="skf-vh-cBt" secondAttribute="top" constant="8" id="7mg-Hc-DS1"/>
+                <constraint firstItem="eZn-2Z-F79" firstAttribute="top" secondItem="Dl6-QD-7O2" secondAttribute="bottom" constant="7" id="8hx-ID-DMR"/>
+                <constraint firstItem="eZn-2Z-F79" firstAttribute="centerX" secondItem="Dl6-QD-7O2" secondAttribute="centerX" id="FkE-dD-38Z"/>
+                <constraint firstItem="Dl6-QD-7O2" firstAttribute="centerX" secondItem="skf-vh-cBt" secondAttribute="centerX" id="ZyR-FY-hRs"/>
+            </constraints>
+            <size key="customSize" width="167" height="157"/>
+            <connections>
+                <outlet property="clubIconView" destination="Dl6-QD-7O2" id="5yX-ib-2Ec"/>
+                <outlet property="clubTitleLabel" destination="eZn-2Z-F79" id="eJN-Fr-3Qv"/>
+            </connections>
+            <point key="canvasLocation" x="-270" y="-31.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="clubIcon" width="220" height="220"/>
+    </resources>
+</document>

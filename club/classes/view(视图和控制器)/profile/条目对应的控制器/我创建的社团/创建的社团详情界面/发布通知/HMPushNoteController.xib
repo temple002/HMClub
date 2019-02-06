@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMPushNoteController" customModule="club" customModuleProvider="target">
+            <connections>
+                <outlet property="noteText" destination="WCf-K1-X46" id="0t3-P4-1gK"/>
+                <outlet property="noteTitle" destination="nsx-Ko-mYH" id="lvV-dk-zfT"/>
+                <outlet property="view" destination="U6h-ea-tEM" id="41Q-E4-jXX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="U6h-ea-tEM">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通知标题:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCU-rN-Nz8">
+                    <rect key="frame" x="16" y="69" width="74" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  字数不能超过50" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nsx-Ko-mYH">
+                    <rect key="frame" x="16" y="97.5" width="288" height="35"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="X5p-Z6-fwl"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通知正文:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sl-eq-E2r">
+                    <rect key="frame" x="16" y="140.5" width="74" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WCf-K1-X46" customClass="HMComposeTextView" customModule="club" customModuleProvider="target">
+                    <rect key="frame" x="16" y="169" width="288" height="249"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.93231169862820507" green="0.93231169862820507" blue="0.93231169862820507" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="nsx-Ko-mYH" firstAttribute="leading" secondItem="TCU-rN-Nz8" secondAttribute="leading" id="0QK-Vz-ppX"/>
+                <constraint firstAttribute="bottom" secondItem="WCf-K1-X46" secondAttribute="bottom" constant="150" id="3GE-xI-ycK"/>
+                <constraint firstAttribute="trailing" secondItem="WCf-K1-X46" secondAttribute="trailing" constant="16" id="DWG-92-D7H"/>
+                <constraint firstItem="4Sl-eq-E2r" firstAttribute="top" secondItem="nsx-Ko-mYH" secondAttribute="bottom" constant="8" id="Onz-Sg-hw2"/>
+                <constraint firstItem="4Sl-eq-E2r" firstAttribute="leading" secondItem="U6h-ea-tEM" secondAttribute="leading" constant="16" id="SrV-w9-s0b"/>
+                <constraint firstItem="WCf-K1-X46" firstAttribute="top" secondItem="4Sl-eq-E2r" secondAttribute="bottom" constant="8" id="Unu-Y7-1gb"/>
+                <constraint firstItem="WCf-K1-X46" firstAttribute="leading" secondItem="U6h-ea-tEM" secondAttribute="leading" constant="16" id="cC6-J7-ap0"/>
+                <constraint firstAttribute="trailing" secondItem="nsx-Ko-mYH" secondAttribute="trailing" constant="16" id="dVu-l1-XO1"/>
+                <constraint firstItem="4Sl-eq-E2r" firstAttribute="leading" secondItem="TCU-rN-Nz8" secondAttribute="leading" id="f74-dj-p3p"/>
+                <constraint firstItem="TCU-rN-Nz8" firstAttribute="top" secondItem="U6h-ea-tEM" secondAttribute="top" constant="69" id="hmL-Ne-HP0"/>
+                <constraint firstItem="nsx-Ko-mYH" firstAttribute="top" secondItem="TCU-rN-Nz8" secondAttribute="bottom" constant="8" id="v1I-ES-lB7"/>
+                <constraint firstItem="TCU-rN-Nz8" firstAttribute="leading" secondItem="U6h-ea-tEM" secondAttribute="leading" constant="16" id="zai-J3-TGS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-120" y="53"/>
+        </view>
+    </objects>
+</document>

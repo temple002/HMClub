@@ -1,0 +1,23 @@
+[
+ 
+  {
+     "clsName" : "HMMineCreatedController",
+     "title" : "我创建的社团",
+     "imageName" : "createdClub"
+  },
+  {
+     "clsName" : "HMMineJoinedEventController",
+     "title" : "我参加的活动",
+     "imageName" : "joinedEvent"
+  },
+  {
+     "clsName" : "HMMineJoinedClubController",
+     "title" : "我加入的社团",
+     "imageName" : "joinedClub"
+  },
+ {
+     "clsName" : "HMSettingController",
+     "title" : "设置",
+     "imageName" : "settingsIcon"
+ }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "clsName" : "HMHomeController",
+    "title" : "首页",
+    "imageName" : "home"
+  },
+  {
+    "clsName" : "HMZoneController",
+    "title" : "动态",
+    "imageName" : "discover"
+  },
+  {
+    "clsName" : "UIViewController"
+  },
+  {
+    "clsName" : "HMMessageController",
+    "title" : "消息",
+    "imageName" : "message_center"
+  },
+  {
+    "clsName" : "HMProfileController",
+    "title" : "我的",
+    "imageName" : "profile"
+  }
+]
